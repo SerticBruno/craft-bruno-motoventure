@@ -1,0 +1,18 @@
+fieldLayouts:
+  0ebefe1d-4f83-400b-8466-c447007cfdb4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d62a7882-b1d6-439e-9ae3-416bfb28c72f # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: footer
+name: Footer

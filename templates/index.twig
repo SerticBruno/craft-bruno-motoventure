@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <link rel="shortcut icon" href="{{ siteUrl }}static/favicon.ico" type="image/x-icon" />
+
+    <title>Motoventure</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{{ siteUrl }}static/css/styles.css">
+    
+</head>
+
+<body class="{{ body_classes|default('home-page') }}">
+
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="header__content content-column">
+
+        <a href="{{ siteUrl }}" class="logo">
+          <img src="{{ siteUrl }}static/images/logo.svg" alt="Motoventure">
+        </a>
+
+        <button type="button" class="nav-toggle">
+          <img src="{{ siteUrl }}static/images/list.svg" alt="Menu" class="icon-open-menu">
+          <img src="{{ siteUrl }}static/images/x.svg" alt="Close Menu" class="icon-close-menu">
+        </button>
+        
+        <nav class="nav">
+
+        {% for link in head.navi %}
+            {% set destination = link.linkDestination.one() %}
+
+          <a href="{{ destination.url }}" class="nav__link">{{ link.linkText }}</a>
+
+        {% endfor %}
+        </nav>
+
+      </div>
+    </header>
+
+    {% block content %}
+
+    {% endblock %}
+
+  </div>
+
+  <footer class="footer">
+    <div class="content-column centered">
+      <p>{{ footer.richText }}</p>
+    </div>
+  </footer>
+
+  <script src="{{ siteUrl }}static/js/scripts.js"></script>
+
+</body>
+</html>

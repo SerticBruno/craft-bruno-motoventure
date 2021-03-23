@@ -1,0 +1,38 @@
+fieldLayouts:
+  e5353fc1-2b8d-487c-8627-b77f43c5fa32:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: storiesListing
+hasTitleField: true
+name: 'Stories Listing'
+section: debaabca-2695-4a96-a838-d7c01dbcb7d2 # Stories Listing
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

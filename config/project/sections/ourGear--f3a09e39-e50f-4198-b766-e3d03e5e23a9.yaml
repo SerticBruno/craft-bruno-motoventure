@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: ourGear
+name: 'Our Gear'
+propagationMethod: all
+siteSettings:
+  e3dc308d-0e52-4537-96a8-68579a37aa34: # Motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: ourGear
+    uriFormat: ourGear
+type: single

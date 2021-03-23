@@ -1,0 +1,33 @@
+contentColumnType: string
+fieldGroup: db424180-892a-40cc-be45-7914371304ae # Common
+handle: photos
+instructions: ''
+name: Photos
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:cdaf9d90-568d-4a00-9f2c-242909582620' # Uploads
+  defaultUploadLocationSubpath: ''
+  limit: ''
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: 'Add a photo'
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:cdaf9d90-568d-4a00-9f2c-242909582620' # Uploads
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:cdaf9d90-568d-4a00-9f2c-242909582620' # Uploads
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

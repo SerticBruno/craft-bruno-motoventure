@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: db424180-892a-40cc-be45-7914371304ae # Common
+handle: navi
+instructions: ''
+name: Navi
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_navi}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

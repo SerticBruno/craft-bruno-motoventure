@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: db424180-892a-40cc-be45-7914371304ae # Common
+handle: featuredStory
+instructions: ''
+name: 'Featured Story'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Select featured Story'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:9b62c7b0-9947-4702-9726-b3929d2fb2dd' # Stories
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

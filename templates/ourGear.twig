@@ -1,0 +1,22 @@
+{% extends "index" %}
+
+{% block content %}
+
+    <article class="section">
+      <div class="content-column content-column--narrow">
+
+        <h1 class="centered"> {{ entry.title }} </h1>
+
+        <p> {{ entry.shortDescription}} </p>
+
+        <figure>
+          <img src="{{ entry.heroImage.one().url }}" alt="Gear">
+        </figure>
+        
+        <p>{{ entry.richText }}</p>
+        
+      </div>
+    </article>
+
+{% endblock %}
+    

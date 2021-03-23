@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: stories
+name: Stories
+propagationMethod: all
+siteSettings:
+  e3dc308d-0e52-4537-96a8-68579a37aa34: # Motoventure
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/_entry
+    uriFormat: 'stories/{slug}'
+type: channel

@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: db424180-892a-40cc-be45-7914371304ae # Common
+handle: shortDescription
+instructions: ''
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '3'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
