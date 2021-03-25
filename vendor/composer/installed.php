@@ -104,12 +104,12 @@
     ),
     'craftcms/cms' => 
     array (
-      'pretty_version' => '3.6.10',
-      'version' => '3.6.10.0',
+      'pretty_version' => '3.6.11',
+      'version' => '3.6.11.0',
       'aliases' => 
       array (
       ),
-      'reference' => '3f88316387ca91ceaf9b63dc9983e17b77b510e2',
+      'reference' => '5e8e2e224ba999a3207c1f415bd0c0498ccd10e1',
     ),
     'craftcms/oauth2-craftid' => 
     array (
@@ -172,6 +172,15 @@
       ),
       'reference' => '0f407c43b953d571421e0020ba92082ed5fb7620',
     ),
+    'dnoegel/php-xdg-base-dir' => 
+    array (
+      'pretty_version' => 'v0.1.1',
+      'version' => '0.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8f8a6e48c5ecb0f991c2fdcf5f154a47d85f9ffd',
+    ),
     'doctrine/lexer' => 
     array (
       'pretty_version' => '1.2.1',
@@ -217,14 +226,23 @@
       ),
       'reference' => '08e27c97e4c6ed02f37c5b2b20488046c8d90d75',
     ),
-    'guzzlehttp/guzzle' => 
+    'gamesara/contact' => 
     array (
-      'pretty_version' => '7.2.0',
-      'version' => '7.2.0.0',
+      'pretty_version' => '1.0.0',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0aa74dfb41ae110835923ef10a9d803a22d50e79',
+      'reference' => 'f4c5da4f5cfceb3dcb8a43504a106dca9f4d18a2',
+    ),
+    'guzzlehttp/guzzle' => 
+    array (
+      'pretty_version' => '7.3.0',
+      'version' => '7.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7008573787b430c1c1f650e3722d9bba59967628',
     ),
     'guzzlehttp/promises' => 
     array (
@@ -237,12 +255,12 @@
     ),
     'guzzlehttp/psr7' => 
     array (
-      'pretty_version' => '1.7.0',
-      'version' => '1.7.0.0',
+      'pretty_version' => '1.8.1',
+      'version' => '1.8.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '53330f47520498c0ae1f61f7e2c90f55690c06a3',
+      'reference' => '35ea11d335fd638b5882ff1725228b3d35496ab1',
     ),
     'justinrainbow/json-schema' => 
     array (
@@ -318,12 +336,21 @@
     ),
     'mikehaertl/php-shellcommand' => 
     array (
-      'pretty_version' => '1.6.3',
-      'version' => '1.6.3.0',
+      'pretty_version' => '1.6.4',
+      'version' => '1.6.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'fe86ec847877b83bf61a96719e7f2e3b3e516a6b',
+      'reference' => '3488d7803df1e8f1a343d3d0ca452d527ad8d5e5',
+    ),
+    'nikic/php-parser' => 
+    array (
+      'pretty_version' => 'v4.10.4',
+      'version' => '4.10.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c6d052fc58cb876152f89f532b95a8d7907e7f0e',
     ),
     'opis/closure' => 
     array (
@@ -445,6 +472,15 @@
         0 => '1.0',
       ),
     ),
+    'psy/psysh' => 
+    array (
+      'pretty_version' => 'v0.10.7',
+      'version' => '0.10.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a395af46999a12006213c0c8346c9445eb31640c',
+    ),
     'ralouphie/getallheaders' => 
     array (
       'pretty_version' => '3.0.3',
@@ -462,6 +498,15 @@
       array (
       ),
       'reference' => 'f3cff96a19736714524ca0dd1d4130de73dbbbc4',
+    ),
+    'roave/security-advisories' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3dfe1d2b81a55b9c51dc87ce89f1ee2beaaf1093',
     ),
     'seld/cli-prompt' => 
     array (
@@ -643,6 +688,15 @@
       ),
       'reference' => '4e78d7d47061fa183639927ec40d607973699609',
     ),
+    'symfony/var-dumper' => 
+    array (
+      'pretty_version' => 'v5.2.5',
+      'version' => '5.2.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '002ab5a36702adf0c9a11e6d8836623253e9045e',
+    ),
     'symfony/yaml' => 
     array (
       'pretty_version' => 'v5.2.5',
@@ -813,6 +867,15 @@
       array (
       ),
       'reference' => 'a6758a2b9c2d8aca9b949f4faa9e3cca0dfbc8be',
+    ),
+    'yiisoft/yii2-shell' => 
+    array (
+      'pretty_version' => '2.0.4',
+      'version' => '2.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6832c3dde303d89f7123bdbcb8cb4d5c80fae4df',
     ),
     'yiisoft/yii2-swiftmailer' => 
     array (

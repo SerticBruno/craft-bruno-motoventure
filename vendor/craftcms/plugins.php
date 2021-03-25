@@ -21,4 +21,21 @@ return array (
     'developerEmail' => 'support@craftcms.com',
     'documentationUrl' => 'https://github.com/craftcms/redactor/blob/v2/README.md',
   ),
+  'gamesara/contact' => 
+  array (
+    'class' => 'gamesara\\contact\\Contact',
+    'basePath' => $vendorDir . '/gamesara/contact/src',
+    'handle' => 'contact',
+    'aliases' => 
+    array (
+      '@gamesara/contact' => $vendorDir . '/gamesara/contact/src',
+    ),
+    'name' => 'Contact',
+    'version' => '1.0.0',
+    'description' => 'Contact plugin',
+    'developer' => 'gamesara',
+    'developerUrl' => 'https://GAMESARA.com',
+    'documentationUrl' => 'https://github.com/SerticBruno/contact/blob/master/README.md',
+    'changelogUrl' => 'https://raw.githubusercontent.com/SerticBruno/contact/master/CHANGELOG.md',
+  ),
 );

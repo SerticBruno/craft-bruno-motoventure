@@ -1,0 +1,47 @@
+{
+    "name": "gamesara/contact",
+    "description": "Contact plugin",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "contact"
+    ],
+    "support": {
+        "docs": "https://github.com/SerticBruno/contact/blob/master/README.md",
+        "issues": "https://github.com/SerticBruno/contact/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gamesara",
+            "homepage": "https://GAMESARA.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "gamesara/contact": "^1.0.0"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "gamesara\\contact\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Contact",
+        "handle": "contact",
+        "developer": "gamesara",
+        "developerUrl": "https://GAMESARA.com",
+        "documentationUrl": "https://github.com/SerticBruno/contact/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/SerticBruno/contact/master/CHANGELOG.md",
+        "class": "gamesara\\contact\\Contact"
+    }
+}
